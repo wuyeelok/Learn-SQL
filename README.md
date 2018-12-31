@@ -6,7 +6,13 @@ After watching the video try to complete the exercises listed below using the da
 All of the solutions are available in the repository, and [this video](https://youtu.be/30W5wjgJR08) goes over all of the solutions.
 
 ## Setup
+
+- [x] Complete *DROP DATABASE*
+
 First drop your existing database that was created in the tutorial. `DROP DATABASE record_company;`
+
+
+- [x] Complete *running schema.sql* in MySQL Database
 
 Copy the code inside the [schema.sql](schema.sql) file, paste it into MySQL Workbench, and run it. (This file contains the code necessary to create and add the tables from the tutorial video)
 
