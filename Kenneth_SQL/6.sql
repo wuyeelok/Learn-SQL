@@ -1,6 +1,6 @@
 SELECT a.name AS Name, 
         a.release_year AS "Release Year",
-        SUM(a.length) AS Duration
+        SUM(s.length) AS Duration
 FROM albums AS a 
 INNER JOIN songs AS s 
 ON a.id = s.album_id
