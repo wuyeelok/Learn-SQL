@@ -17,3 +17,5 @@ WHERE id = (
         (
             SELECT id FROM bands WHERE name = 'Rock Band' ORDER BY id DESC LIMIT 1
         ) AS b);
+
+SET SQL_SAFE_UPDATES = 1;
